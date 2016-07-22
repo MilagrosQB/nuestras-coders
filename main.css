@@ -1,0 +1,39 @@
+*{
+	box-sizing: border-box;
+	margin:0px;
+	padding:0px;
+}
+img{
+	opacity:1;
+	filter:1;
+}
+img:hover{
+    opacity:0.5;
+    filter:1;
+}
+.linea{
+	width: 110px;
+	height: 4px;
+	background: #1A1A1A;
+	margin:8px 0px;
+}
+.caja-perfiles{
+	width:700px;
+	height:460px;
+	margin-left:10px;
+}
+.perfil{
+	width: 211px;
+	height: 211px;
+	margin: 8px 8px;
+	position:relative;
+}
+.inline-block{
+	display:inline-block;
+}
+.nombre{
+	position:absolute;
+	right:0px;
+	bottom:0px;
+	color:white;
+}
